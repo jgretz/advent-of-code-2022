@@ -1,0 +1,36 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day1": "ts-node src/day1.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgretz/advent-of-code-2022.git"
+  },
+  "author": "jgretz@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgretz/advent-of-code-2022/issues"
+  },
+  "homepage": "https://github.com/jgretz/advent-of-code-2022#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.1",
+    "typescript": "^4.9.3"
+  }
+}
