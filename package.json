@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "day1": "ts-node src/day1.ts"
+    "day1": "ts-node src/day1.ts",
+    "day2": "ts-node src/day2.ts"
   },
   "repository": {
     "type": "git",
