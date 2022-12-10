@@ -34,7 +34,7 @@ const parseMove = (line: string) => {
 
 const parseMoves = (lines: string[]) => lines.map(parseMove);
 
-const printMap = ({map}: World) => console.log(map.map((x) => x.join('')).join('\n'));
+// const printMap = ({map}: World) => console.log(map.map((x) => x.join('')).join('\n'));
 
 const setMark = (map: Map, {x, y}: Point, mark = VISITED) => (map[HEIGHT - y - 1][x] = mark);
 
